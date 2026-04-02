@@ -5,11 +5,11 @@ pages_build_output_dir = "."
 [[d1_databases]]
 binding = "DB"
 database_name = "cloudpress-db"
-database_id = "YOUR_D1_DATABASE_ID"
+database_id = "12bfc2fe-ae8e-45cf-8238-667686251b76"
 
 [[kv_namespaces]]
 binding = "SESSIONS"
-id = "YOUR_KV_NAMESPACE_ID"
+id = "98dd2527afed40d3a7f00d859fa3d547"
 
 [vars]
 SITE_DOMAIN        = "cloudpress.site"
