@@ -12,13 +12,17 @@ binding = "SESSIONS"
 id = "98dd2527afed40d3a7f00d859fa3d547"
 
 [vars]
-SITE_DOMAIN        = "cloudpress.cloud-in.co.kr"
-ADMIN_EMAIL        = "choichoi3227@gmail.com"
-CF_API_TOKEN       = ""
-CF_ZONE_ID         = ""
-CF_ACCOUNT_ID      = ""
-PROVISIONER_URL    = "http://YOUR_ORACLE_VPS_IP:3721"
-PROVISIONER_SECRET = "CHANGE_THIS_RANDOM_SECRET"
-TOSS_CLIENT_KEY    = "test_ck_YOUR_TOSS_CLIENT_KEY"
-TOSS_SECRET_KEY    = "test_sk_YOUR_TOSS_SECRET_KEY"
-JWT_SECRET         = "CHANGE_THIS_RANDOM_JWT_SECRET"
+SITE_DOMAIN   = "cloudpress.cloud-in.co.kr"
+ADMIN_EMAIL   = "choichoi3227@gmail.com"
+
+# InstaWP API (https://app.instawp.io → Settings → API Tokens)
+INSTAWP_API_KEY = ""
+
+# Cloudflare API (CDN 연동 — 없으면 CF 연동 스킵, InstaWP URL 그대로 사용)
+CF_API_TOKEN  = ""
+CF_ZONE_ID    = ""
+CF_ACCOUNT_ID = ""
+
+# 토스페이먼츠
+TOSS_CLIENT_KEY = "test_ck_YOUR_TOSS_CLIENT_KEY"
+TOSS_SECRET_KEY = "test_sk_YOUR_TOSS_SECRET_KEY"
