@@ -66,8 +66,7 @@ export async function requireAuth(env, req) {
 
 export async function requireAdmin(env, req) {
   const user = await requireAuth(env, req);
-  if (!user) return null;
-  if (user.role !== 'admin') return null;
+  if (!user || user.role !== 'admin') return null;
   return user;
 }
 
