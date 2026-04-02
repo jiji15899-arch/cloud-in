@@ -12,7 +12,7 @@ binding = "SESSIONS"
 id = "98dd2527afed40d3a7f00d859fa3d547"
 
 [vars]
-SITE_DOMAIN        = "cloudpress.site"
+SITE_DOMAIN        = "cloudpress.cloud-in.co.kr"
 ADMIN_EMAIL        = "choichoi3227@gmail.com"
 CF_API_TOKEN       = ""
 CF_ZONE_ID         = ""
